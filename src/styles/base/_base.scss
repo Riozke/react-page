@@ -1,0 +1,26 @@
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: $off-white;
+}
+
+.header__menu .headerTitle{
+    cursor: pointer;
+    color:black;    
+}
+
+button {
+    cursor: pointer;
+    background: $purple;
+    border: none;
+    font-weight: bold;
+    font-size: $l-size;
+}
+
+.is-active {
+    font-weight: bold;
+    color:$black;
+}
